@@ -1,8 +1,13 @@
 package lab05.tasks;
 
-//Annotations
+/**
+ * Describe about a Subject in IP class. 
+ * @author Sreng
+ * @version 1.0
+ * @modified 10/01/2025
+ */
 public class Subject {
-	private String subjectName; //e.g. Intro to SE
+	private String subjectName; //e.g. Introduction to SE
 	private int subjectCode; //e.g. 1
 	private int numberOfCredits = 1;
 	public Subject() {
